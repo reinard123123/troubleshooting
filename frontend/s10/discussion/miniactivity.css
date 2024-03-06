@@ -1,0 +1,14 @@
+nav {
+	padding: 5px;
+	text-align: center;
+	background-color: Green;
+}
+
+
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0.5rem;
+	padding: 3px;
+}

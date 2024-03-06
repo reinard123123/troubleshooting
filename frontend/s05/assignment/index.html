@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+</head>
+<body>
+  <header>
+        <h1>My Contact list</h1>
+    </header>
+
+    <section>
+        <h2>My Phonebook</h2>
+    
+        <table border="1" style="border-style: outset"> 
+            <thead>             
+                <tr>                    
+                    <th colspan="1">Name</th>
+                    <th colspan="1">Email Address</th>
+                    <th colspan="1">Contact Number</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>                    
+                    <td>John Doe</td>
+                    <td>john@mail.com</td>
+                    <td>09123456789</td>
+                </tr>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>jane@mail.com</td>
+                    <td>09123456789</td>
+                </tr>
+                <tr>
+                    <td>Joe Smith</td>
+                    <td>joe@mail.com</td>
+                    <td>09123456789</td>
+                </tr>
+            </tbody>            
+            </table>
+    </section>
+    <section>
+        <h2>Contact Form</h2>
+        <form action="https://google.com">
+
+            <label for="first_name">First Name:</label><br>
+            <input type="text" name="first_name" id="first_name" required autocomplete><br>
+
+            <label for="last_name">Last Name: </label><br>
+            <input type="text" name="last_name" id="last_name" required autocomplete><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" required autocomplete><br>
+
+            <label for="contact_number">Contact Number: </label><br>
+            <input type="text" name="contact_number" id="contact" required autocomplete><br>
+            
+            <button type="submit">Add Contact</button>
+			<button type="cancel">Cancel</button>
+</body>
+</html>

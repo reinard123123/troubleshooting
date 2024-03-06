@@ -1,0 +1,129 @@
+/*
+Mini Activity 1
+- In the body, add the font family Open Sans with san-serif as fallback font
+*/
+
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Root Element <html> has a default font size of 16px */
+nav	{
+
+	/*padding-top: 0.8rem;
+	padding-right: 0.8rem;
+	padding-bottom: 0.8rem;
+	padding-left: 0.8rem;
+*/
+
+
+/*Short hand for adding padding to all sides*/
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid grey;
+	list-style-type: none ;
+}
+
+nav .nav, nav .nav-logo {
+	margin: 0.5rem;
+	/* changes elements to line elements*/
+	display: inline;
+}
+
+/*Intro Section*/
+#intro {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	/* Shorthand property*/
+/*	padding: 2rem 10% 3rem;*/
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+
+}
+
+#intro h2, #intro p {
+/* creates space between the contents of the intro seaction	*/
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+/* changes the thickness of the text	*/
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+/* creates space between the button text and the border	*/
+	padding: 1rem;
+}
+
+/* succeed info section */
+#succeed-info {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#succeed-info h2 {
+/*creates space between the header and the card section	*/
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+/* allows the cards to appear beside each other */
+	display: inline-block;
+/* aligns elements with the tallest element in line	*/
+vertical-align: top;
+min-height: 175px;
+width: 30%;
+/* creates horizontal spacing between cards */
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+}
+
+
+#pre-footer {
+	padding: 1rem;
+	color: white;
+	background-color: #002540;
+}
+
+
+#pre-footer  div {
+	display: inline-block;
+	width: 20%;
+}
+
+#pre-footer > div {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+
+body > footer {
+    padding: 0.7rem;
+}
+
+
+footer > span {
+	margin-left: .5rem;
+	margin-right: .5rem;
+}

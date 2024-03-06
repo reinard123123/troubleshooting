@@ -1,0 +1,53 @@
+#classic{
+    color: orange;
+}
+
+/* Universal Selector Example */
+* {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    }
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#header {
+    text-transform: uppercase;
+}
+
+.other-ring {
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Attribute Selector Example */
+img[alt="sale"]{
+    background-image: url("https://media3.giphy.com/media/cKt4jfoInVLhCe0HX8/200w.gif?cid=6c09b952jgyxx7czwo8nthgbj5n6lb4524c3x4d06cdz758l&ep=v1_gifs_search&rid=200w.gif&ct=g");
+}
+
+/* Adjacent Sibling Selector Example */
+img[alt="Silver Ring"] + .description {
+    border: 2px dashed green;
+}
+
+/* General Sibling Selector Example */
+h2 ~ .other-ring {
+    height: 40vh;
+    background-color: lightyellow;
+}
+
+/* Child Selector Example */
+main>section>p{
+    letter-spacing: 5px;
+}
+
+/* Descendant Selector Example */
+footer li {
+    list-style-type: none;
+}
